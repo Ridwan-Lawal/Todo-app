@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function App() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen px-6 flex justify-center items-center">
       <TodoContainer />
     </div>
   );
