@@ -98,7 +98,7 @@ function TodoCard({ task, onDeleteTask, onEditTask }) {
     <div className="bg-gray-100 group  rounded-md overflow-hidden pl-4 hover:cursor-pointer group flex items-center justify-between">
       <p className="text-blue-950 py-2">{task.task}</p>
 
-      <aside className="flex opacity-0 transition-opacity duration-300  group-hover:opacity-100 overflow-hidden">
+      <aside className="flex lg:opacity-0 lg:transition-opacity lg:duration-300  lg:group-hover:opacity-100 overflow-hidden">
         <Buttons
           image="/edit.png"
           bgColor="bg-blue-700"
